@@ -1,16 +1,15 @@
-class Cat:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+my_dog1 = Dog("Rex", 5)
+my_dog1.bark()           
+print(my_dog1.get_age()) 
+my_dog1.set_age(6)
+print(my_dog1.get_age()) 
 
-    def meow(self):
-        print(f"{self.name} says meow!")
+my_dog2 = Dog("Odi", 9)
+my_dog2.bark()           
+print(my_dog2.get_age()) 
+my_dog2.set_age(6)
+print(my_dog2.get_age())
 
-    def get_age(self):
-        return self.age
-
-    def set_age(self, age):
-        self.age = age
 
 my_cat1 = Cat("Whiskers", 3)
 my_cat1.meow()            
