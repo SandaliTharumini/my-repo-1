@@ -12,10 +12,14 @@ class Dog:
     def set_age(self, age):
         self.age = age
 
-my_dog = Dog("Rex", 5)
+my_dog1 = Dog("Rex", 5)
+my_dog1.bark()           
+print(my_dog1.get_age()) 
+my_dog1.set_age(6)
+print(my_dog1.get_age()) 
 
-my_dog.bark()           
-print(my_dog.get_age()) 
-
-my_dog.set_age(6)
-print(my_dog.get_age()) 
+my_dog2 = Dog("Odi", 9)
+my_dog2.bark()           
+print(my_dog2.get_age()) 
+my_dog2.set_age(6)
+print(my_dog2.get_age())
