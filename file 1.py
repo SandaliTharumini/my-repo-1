@@ -11,3 +11,11 @@ class Dog:
 
     def set_age(self, age):
         self.age = age
+
+my_dog = Dog("Rex", 5)
+
+my_dog.bark()           
+print(my_dog.get_age()) 
+
+my_dog.set_age(6)
+print(my_dog.get_age()) 
