@@ -12,11 +12,12 @@ class Cat:
     def set_age(self, age):
         self.age = age
 
-my_cat = Cat("Whiskers", 3)
-
-my_cat.meow()            
-print(my_cat.get_age()) 
-
-# Setting a new age
+my_cat1 = Cat("Whiskers", 3)
+my_cat1.meow()            
+print(my_cat1.get_age()) 
 my_cat.set_age(4)
-print(my_cat.get_age())
+print(my_cat1.get_age())
+
+my_cat2 = Cat("Garfild", 9)
+my_cat2.meow()            
+print(my_cat2.get_age()) 
