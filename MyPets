@@ -1,3 +1,5 @@
+from Pet import Dog,Cat
+
 my_dog1 = Dog("Rex", 5)
 my_dog1.bark()           
 print(my_dog1.get_age()) 
