@@ -14,7 +14,7 @@ print(my_dog2.get_age())
 my_cat1 = Cat("Whiskers", 3)
 my_cat1.meow()            
 print(my_cat1.get_age()) 
-my_cat.set_age(4)
+my_cat1.set_age(4)
 print(my_cat1.get_age())
 
 my_cat2 = Cat("Garfild", 9)
