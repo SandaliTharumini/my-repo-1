@@ -1,4 +1,4 @@
-from Pet import Dog,Cat
+from Pet import Dog, Cat
 
 my_dog1 = Dog("Rex", 5, "Labrador")
 my_dog1.bark()           
